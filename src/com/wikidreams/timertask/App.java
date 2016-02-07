@@ -1,35 +1,3 @@
-# timer
-Java TimerTask totorial.
-
-
-A task that can be scheduled for one-time or repeated execution by a Timer.
-More information at [https://docs.oracle.com/](https://docs.oracle.com/javase/7/docs/api/java/util/TimerTask.html). 
-
-
-## MyTask class.
-
-
-package com.wikidreams.timertask;
-
-import java.util.TimerTask;
-
-public class MyTask extends TimerTask {
-
-	public MyTask() {
-		super();
-	}
-
-	@Override
-	public void run() {
-		System.out.println("I run after 5 seconds.");
-	}
-
-}
-
-
-## Main class.
-
-
 package com.wikidreams.timertask;
 
 import java.util.Timer;
@@ -60,6 +28,3 @@ public class App {
 	}
 
 }
-
-
-Produced by [Wiki Dreams.github.io](https://WikiDreams.github.io/).
